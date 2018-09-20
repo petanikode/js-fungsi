@@ -32,7 +32,7 @@ function editBarang(id){
 }
 
 function deleteBarang(id){
-    dataBarang.pop(id);
+    dataBarang.splice(id, 1);
     showBarang();
 }
 
